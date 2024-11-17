@@ -1,0 +1,191 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection {
+    background: blue;
+    color: #fff;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #171717;
+}
+
+header{
+    widows: 100%;
+    background: #171717;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    z-index: 1000;
+    transition: .2s;
+}
+
+header .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header .navbar ul li{
+    margin: 0 3.5rem;
+}
+
+header .navbar ul li a{
+    font-size: 2rem;
+    color: #fff;
+    transition: .2s;
+}
+
+header .navbar ul li .active,
+header .navbar ul li a:hover{
+    color: blue;
+}
+
+header .logo {
+    font-size: 2.5rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+header .fa-bars{
+    font-size: 3rem;
+    color: blue;
+    cursor: pointer;
+    display: none;
+    transition: .2s;
+}
+
+.portada{
+    font-size: 4rem;
+    color: blue;
+    text-align: center;
+    padding: 6rem 1rem 0 0;
+    letter-spacing: .2rem;
+    font-weight: 600;
+}
+
+.fondo{
+    background-image:url(fotos/fondo5.jpg);
+}
+
+.fondo p{
+    font-size: 1.6rem;
+    color: #fff;
+    text-align: center;
+    padding: 6rem 1rem 0 0;
+    letter-spacing: .2rem;
+    font-weight: 600;
+}
+
+.fondo h2{
+    font-size: 2rem;
+    color: blue;
+    text-align: center;
+    padding: 6rem 1rem 0 0;
+    letter-spacing: .2rem;
+    font-weight: 600;
+}
+
+.fondo h3{
+    font-size: 2rem;
+    color: blue;
+    text-align: center;
+    padding: 6rem 1rem 0 0;
+    letter-spacing: .2rem;
+    font-weight: 600;
+}
+
+.fondo ul li{
+    font-size: 1.3rem;
+    color: #fff;
+    text-align: center;
+    padding: 6rem 1rem 0 0;
+    letter-spacing: .2rem;
+    font-weight: 600;
+}
+
+.fotos{
+    text-align: center;
+
+}
+
+.Paquetes{
+    text-align: center;
+}
+
+.fondo h3{
+    font-size: 2rem;
+    color: blue;
+    padding: 6rem 1rem 0 0;
+    letter-spacing: .2rem;
+    font-weight: 600;
+}
+
+.fondo a{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.fondo .active,
+.fondo a:hover{
+    color: blue;
+}
+
+.me1{
+    padding: 100px 0;
+    background-color: #0e0d0d;
+}
+
+h3{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 15px;
+    padding: 6rem 1rem 0 0;
+    letter-spacing: .2rem;
+    font-weight: 600;
+}
+
+.me1 p{
+    font-size: 1rem;
+    color: #fff;
+    padding: 6rem 1rem 0 0;
+    letter-spacing: .2rem;
+    font-weight: 600;
+}
+
+.me1 .me2 ul li a{
+    font-size: 2rem;
+    color: #fff;
+    transition: .2s;
+}
+
+.me1 .me2 ul li .active,
+.me1 .me2 ul li a:hover{
+    color: blue;
+}
+
+.me1 .me6 a{
+    font-size: 2rem;
+    color: #fff;
+    transition: .2s;
+}
+
+.me1 .me6 .active,
+.me1 .me6 a:hover{
+    color: blue;
+}
